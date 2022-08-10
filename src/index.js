@@ -1,5 +1,13 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import App from "./component/App";
+import ReactDOM from "react-dom/client";
+import AppCalc from "./component/AppCalc";
+import AppCommerce from "./component/AppCommerce";
+import AppLibrary from "./component/AppLibrary";
 import "./index.css";
-ReactDOM.render(<App />, document.getElementById("root"));
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+    <AppCommerce />
+    // <AppCalc />
+    // <AppLibrary/>
+);

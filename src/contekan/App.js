@@ -73,18 +73,14 @@ class App extends Component {
   }
 
   render() {
-    return ( <
-      div className = "myCalculator" >
-      <
-      Result result = {
+    return ( 
+    <div className = "myCalculator" >
+      <Result result = {
         this.state.result
-      }
-      /> <
-      Buttons Buttonclicked = {
+      }/> 
+      <Buttons Buttonclicked = {
         this.handleclicks
-      }
-      /> <
-      /div>
+      }/> </div>
     );
   }
 }
